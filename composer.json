@@ -24,7 +24,7 @@
 
     "require": {
         "php": ">=5.3.8",
-        "dlin/zendesk": ">=0.0.1"
+        "mylittleparis/zendesk": ">=0.0.1"
     },
 
     "require-dev": {
