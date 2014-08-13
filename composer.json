@@ -1,5 +1,5 @@
 {
-    "name": "dlin/zendesk-bundle",
+    "name": "mylittleparis/zendesk-bundle",
     "description": "A Syfmony 2 Bundle for Dlin Zendesk client library",
     "keywords": ["zendesk", "symfony"],
 
