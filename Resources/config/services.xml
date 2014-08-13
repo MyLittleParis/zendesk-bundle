@@ -6,7 +6,7 @@
 
   <parameters>
       <parameter key="dlin.zendesk.class">Dlin\Bundle\ZendeskBundle\Service\ZendeskService</parameter>
-      <parameter key="dlin.zendesk.api.class">Dlin\Bundle\Zendesk\ZendeskApi</parameter>
+      <parameter key="dlin.zendesk.api.class">Dlin\Zendesk\ZendeskApi</parameter>
       <parameter key="dlin.zendesk.email"></parameter>
       <parameter key="dlin.zendesk.token"></parameter>
       <parameter key="dlin.zendesk.url"></parameter>
