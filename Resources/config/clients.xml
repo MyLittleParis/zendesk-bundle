@@ -8,6 +8,7 @@
         <parameter key="dlin.zendesk.ticket.client.class">Dlin\Zendesk\Client\TicketClient</parameter>
         <parameter key="dlin.zendesk.ticket.field.client.class">Dlin\Zendesk\Client\TicketFieldClient</parameter>
         <parameter key="dlin.zendesk.ticket.comment.client.class">Dlin\Zendesk\Client\TicketCommentClient</parameter>
+        <parameter key="dlin.zendesk.user.client.class">Dlin\Zendesk\Client\UserClient</parameter>
     </parameters>
 
     <services>
@@ -20,6 +21,10 @@
       </service>
 
       <service id="dlin.zendesk.ticket.comment.client" class="%dlin.zendesk.ticket.comment.client.class%">
+          <argument type="service" id="dlin.zendesk.api"/>
+      </service>
+
+      <service id="dlin.zendesk.user.client" class="%dlin.zendesk.user.client.class%">
           <argument type="service" id="dlin.zendesk.api"/>
       </service>
 
